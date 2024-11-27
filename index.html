@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebutuhan Media Sosial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Selamat Datang di Kebutuhan Media Sosial!</h1>
+    </section>
+
+    <section id="layanan">
+        <h2>Layanan Kami</h2>
+        <div class="layanan-item">
+            <h3>
+                Followers TikTok
+                <img src="images/tiktok-logo.png" alt="Logo TikTok" class="logo-tiktok">
+            </h3>               
+            <p>Tambah followers TikTok dengan cepat dan aman.</p>
+            <p>Harga: Mulai dari Rp 10.000</p>
+            <a href="#" class="cta-btn" onclick="choosePlatform()">Pesan Sekarang</a>
+
+<script>
+    function choosePlatform() {
+        const userChoice = confirm("Pilih platform:\nOK untuk WhatsApp\nCancel untuk Telegram");
+        if (userChoice) {
+            // WhatsApp link
+            window.open("https://wa.me/6281376014684", "_blank");
+        } else {
+            // Telegram link
+            window.open("https://t.me/sanjaya_125", "_blank");
+        }
+    }
+</script>
+        </div>
+
+        <div class="layanan-item">
+            <h3>
+                Likes TikTok
+                <img src="images/logo-tiktok.png" alt="Logo TikTok" class="logo-like">
+                <img src="images/logo-heart.png" alt="Logo Likes" class="logo-likes">
+            </h3>            
+            <p>Menambah like di TikTok untuk meningkatkan interaksi.</p>
+            <p>Harga: Mulai dari Rp 3.000</p>
+            <a href="#" class="cta-btn" onclick="choosePlatform()">Pesan Sekarang</a>
+        
+        <script>
+        function choosePlatform() {
+        const userChoice = confirm("Pilih platform:\nOK untuk WhatsApp\nCancel untuk Telegram");
+        if (userChoice) {
+            // WhatsApp link
+            window.open("https://wa.me/6281376014684", "_blank");
+        } else {
+            // Telegram link
+            window.open("https://t.me/sanjaya_125", "_blank");
+        }
+        }
+        </script>
+                </div>
+
+        <div class="layanan-item">
+            <h3>
+                Likes Instagram
+                <img src="images/logo-instagram.png" alt="Logo Instagram" class="logo-icon">
+                <img src="images/logo-likes-instagram.png" alt="Logo Likes" class="logo-icon">
+            </h3>
+            <p>Menambah like di Instagram untuk meningkatkan interaksi.</p>
+            <p>Harga: Mulai dari Rp 3.000</p>
+            <a href="#" class="cta-btn" onclick="choosePlatform()">Pesan Sekarang</a>
+
+<script>
+    function choosePlatform() {
+        const userChoice = confirm("Pilih platform:\nOK untuk WhatsApp\nCancel untuk Telegram");
+        if (userChoice) {
+            // WhatsApp link
+            window.open("https://wa.me/6281376014684", "_blank");
+        } else {
+            // Telegram link
+            window.open("https://t.me/sanjaya_125", "_blank");
+        }
+    }
+</script>
+        </div>
+
+        <div class="layanan-item">
+            <h3>
+                Followers Instagram
+                <img src="images/logo-ig.png" alt="Logo Instagram" class="logo-ig">
+            </h3>
+            
+            <p>Followers Instagram cepat, aman, dan efektif.</p>
+            <p>Harga: Mulai dari Rp 5.000</p>
+            <a href="#" class="cta-btn" onclick="choosePlatform()">Pesan Sekarang</a>
+
+<script>
+    function choosePlatform() {
+        const userChoice = confirm("Pilih platform:\nOK untuk WhatsApp\nCancel untuk Telegram");
+        if (userChoice) {
+            // WhatsApp link
+            window.open("https://wa.me/6281376014684", "_blank");
+        } else {
+            // Telegram link
+            window.open("https://t.me/sanjaya_125", "_blank");
+        }
+    }
+</script>
+</div>
+
+    </section>
+    <head>
+        <!-- Tambahkan link Google Font -->
+        <link href="https://fonts.google.com/specimen/Bungee+Spice"stylesheet">
+    </head>
+    <body>
+        <button id="btn-open-modal" class="btn-testimoni">Testimonial</button>
+    </body>
+    
+        <!-- Modal -->
+        <div id="modal-testimoni" class="hidden">
+            <div class="modal-content">
+                <button id="btn-close-modal">&times;</button>
+                <h2>Berikut Beberapa Foto TESTIMONI</h2>
+                <div class="testimoni-container">
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer1.jpg" alt="Foto Rani">
+                    </div>
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer2.jpg" alt="Foto Ardi">
+                    </div>
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer3.jpg" alt="Foto Siti">
+                    </div>
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer4.jpg" alt="Foto Siti">
+                    </div>
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer5.jpg" alt="Foto Siti">
+                    </div>
+                    <div class="testimoni-item">
+                        <img src="testimoni/customer6.jpg" alt="Foto Siti">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kebutuhan Media Sosial. Semua hak dilindungi.</p>   
+    </footer>
+    <script>
+        // Ambil elemen tombol dan modal
+        const openModalButton = document.getElementById('btn-open-modal');
+        const closeModalButton = document.getElementById('btn-close-modal');
+        const modal = document.getElementById('modal-testimoni');
+    
+        // Event listener untuk membuka modal
+        openModalButton.addEventListener('click', () => {
+            modal.classList.remove('hidden'); // Tampilkan modal
+        });
+    
+        // Event listener untuk menutup modal
+        closeModalButton.addEventListener('click', () => {
+            modal.classList.add('hidden'); // Sembunyikan modal
+        });
+    
+        // Menutup modal dengan klik di luar konten
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.add('hidden'); // Sembunyikan modal
+            }
+        });
+    </script>    
+</body>
+</html>

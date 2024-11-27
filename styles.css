@@ -1,0 +1,440 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://pin.it/2Q0B1Jxqy') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#hero .btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #e68900;
+}
+
+/* Layanan Section */
+#layanan {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#layanan h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.layanan-item {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.layanan-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.layanan-item p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff9800;
+}
+
+.layanan-item {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.layanan-item:hover {
+    transform: translateY(-5px);
+}
+
+.layanan-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.layanan-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: left;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .layanan-item {
+        margin: 10px 0;
+    }
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00a1b3;
+}
+
+#hero {
+    background: linear-gradient(to right, #00bcd4, #009688);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #4CAF50; /* Warna hijau */
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.cta-btn:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.cta-btn:active {
+    background-color: #3e8e41; /* Warna hijau lebih gelap lagi */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+/* Tombol Testimoni */
+#btn-open-modal {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 20px 50px;
+    font-size: 70px;
+    font-family: 'specimen', cursive; /* Font keren dari Google Fonts */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#btn-open-modal:hover {
+    background-color: #e68a00;
+}
+
+/* Modal Styling */
+#modal-testimoni {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modal-testimoni.hidden {
+    display: none; /* Modal tersembunyi secara default */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Tombol Close */
+#btn-close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+#btn-close-modal:hover {
+    color: red;
+}
+
+/* Styling Testimoni Item */
+.testimoni-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimoni-item img {
+    width: 150px; /* Lebar foto */
+    height: 150px; /* Tinggi foto */
+    object-fit: cover; /* Menyesuaikan gambar tanpa distorsi */
+    margin-bottom: 10px; /* Jarak antara foto dan teks */
+    border: 2px solid #ddd; /* Opsional: Tambahkan garis batas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan opsional */
+}
+
+
+
+.testimoni-item img {
+    width: 150px; /* Lebar foto */
+    height: 150px; /* Tinggi foto */
+    object-fit: cover; /* Menyesuaikan gambar tanpa distorsi */
+    margin-bottom: 10px; /* Jarak antara foto dan teks */
+    border: 2px solid #ddd; /* Opsional: Tambahkan garis batas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan opsional */
+}
+
+
+
+.testimoni-item blockquote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimoni-item p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.logo-tiktok {
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    margin-left: 8px;
+}
+
+.logo-like {
+    width: 40px; /* Ukuran lebar logo */
+    height: 40px; /* Ukuran tinggi logo */
+    vertical-align: middle; /* Agar sejajar dengan teks */
+    margin-left: 8px; /* Memberi jarak antara teks dan logo */
+}
+
+.logo-likes {
+    width: 60px; /* Ukuran lebar logo */
+    height: 60px; /* Ukuran tinggi logo */
+    vertical-align: middle; /* Agar sejajar dengan teks */
+    margin-left: 8px; /* Memberi jarak antara teks dan logo */
+}
+
+.logo-like + .logo-likes {
+    margin-left: -5px; /* Jarak antara dua logo */
+}
+
+.logo-icon {
+    width: 60px; /* Ukuran lebar logo */
+    height: 60px; /* Ukuran tinggi logo */
+    vertical-align: middle; /* Agar sejajar dengan teks */
+    margin-left: -5px; /* Memberi jarak antara teks dan logo */
+}
+
+.logo-icon + .logo-icon {
+    margin-left: -15px; /* Jarak antara dua logo */
+}
+
+.logo-ig {
+    width: 60px; /* Ukuran logo */
+    height: 60px; /* Tinggi logo */
+    vertical-align: middle; /* Agar logo sejajar dengan teks */
+    margin-left: 1px; /* Memberi jarak antara teks dan logo */
+}
+
+.btn-testimoni {
+    background: linear-gradient(45deg, #FF4081, #3F51B5); /* Gradient warna pink ke biru */
+    color: white;
+    padding: 50px 60px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-testimoni:hover {
+    background: linear-gradient(45deg, #FF80AB, #536DFE); /* Gradient berubah saat hover */
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    text-align: center; /* Teks rata tengah */
+    padding: 10px 0; /* Jarak dalam */
+    font-size: 14px; /* Ukuran font */
+    position: fixed; /* Footer tetap di bawah layar */
+    bottom: 0; /* Posisi di bawah */
+    width: 100%; /* Lebar penuh */
+    z-index: 10; /* Pastikan berada di atas elemen lainnya */
+}
+
+#modal-testimoni {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100; /* Modal di atas konten lainnya */
+}
+
+footer {
+    z-index: 10; /* Footer tetap di bawah modal */
+}
+
+
+
